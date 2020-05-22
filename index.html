@@ -1,85 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      gtag("config", "UA-166818139-2");
+    </script>
 
-    gtag('config', 'UA-166818139-2');
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/animations.js"></script>
+    <title>Will Hunter</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/fav/site.webmanifest" />
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/fav/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
+    <meta name="msapplication-config" content="/fav/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-  <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/animations.js"></script>
-  <title>Will Hunter</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
-  <link rel="manifest" href="/fav/site.webmanifest">
-  <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/fav/favicon.ico">
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png">
-  <meta name="msapplication-config" content="/fav/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-</head>
-
-<body class="has-navbar-fixed-top">
-  <nav class="navbar is-fixed-top is-primary" aria-label="main navigation">
-    <div id="navbar-main" class="navbar-menu">
-      <div class="navbar-end">
-        <a href="index.html" class="navbar-item is-active">
-          <span>About</span>
-        </a>
-        <a href="clients.html" class="navbar-item">
-          Experince
-        </a>
-        <a href="mentors.html" class="navbar-item">
-          Projects
+  <body>
+    <nav class="navbar is-spaced" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbar-main"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
-    </div>
-  </nav>
-  <!-- Hero -->
-  <section class="hero is-info is-medium is-bold">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title is-size-1">
-          Practicum
-        </h1>
-        <div class="container">
-          <h2 style="margin-bottom:20px;" class="is-size-5">
-            Work on side projects turned startups, in a robust Agile
-            environment.
+      <div id="navbar-main" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item has-text-primary is-active">
+            <span>About</span>
+          </a>
+          <a href="" class="navbar-item">
+            My Journey
+          </a>
+          <a href="" class="navbar-item">
+            My Work
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro -->
+    <div class="container">
+      <div class="container has-text-centered">
+        <img
+          class="is-rounded"
+          src="./images/old-headshot.jpg"
+          alt="Will Hunter"
+          width="400"
+          height="400"
+        />
+      </div>
+      <div class="container has-text-centered">
+        <div class="box">
+          <h2 class="subtitle is-size-4">
+            Hi! I'm <span class="has-text-primary"><b>Will</b></span
+            >.
           </h2>
-          <h2 class="is-subtitle is-size-5">
-            Gain the work experience of an Internship, on a project that you
-            have equity in.
-          </h2>
+          <h1 class="title is-size-3" style="margin-top: 20px;">
+            I
+            <span class="has-text-primary">create</span> things that have an
+            impact. I am obsessed about my
+            <span class="has-text-primary">passions</span> and the
+            <span class="has-text-primary">people</span> that surround me.
+          </h1>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        ©2020 Will Hunter. All rights reserved.
-      </div>
-    </div>
-  </footer>
-</body>
 
+    <!-- Footer -->
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          ©2020 Will Hunter. All rights reserved.
+        </div>
+      </div>
+    </footer> -->
+  </body>
 </html>
