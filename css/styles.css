@@ -18,46 +18,6 @@ hr {
   border: 0.5px solid #7a7a7a;
 }
 
-/* Horizontal Card */
-/* .card.is-horizontal {
-  flex-direction: row;
-  display: flex;
-  flex-basis: 50ex;
-  flex-grow: 0;
-  flex-shrink: 1;
-  box-shadow: none;
-}
-
-.card.is-horizontal .card-image {
-  align-self: center;
-}
-
-.card.is-horizontal .image {
-  min-height: 100%;
-}
-
-.card.is-horizontal .card-content {
-  flex: 1;
-}
-
-.card.is-horizontal .card-content {
-  padding-left: 1em;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 0.8em;
-}
-
-.card.is-horizontal {
-  ul {
-    list-style: none;
-    margin: 0;
-  }
-
-  .is-divider {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-  }
-} */
 .card .media:not(:last-child) {
   margin-bottom: 0.75rem;
 }
@@ -88,4 +48,29 @@ hr {
 }
 .card.is-horizontal .card-content {
   flex: 3;
+}
+
+.is-light-accent {
+  background-color: #89a9ad;
+  color: white;
+}
+
+.is-dark-accent {
+  background-color: #777f84;
+  color: white;
+}
+
+.is-black-blue {
+  background-color: #3f5055;
+  color: white;
+}
+
+.is-white-blue {
+  background-color: #d2e9e9;
+  color: white;
+}
+
+.section {
+  padding-top: 0;
+  padding-bottom: 1.5rem;
 }
