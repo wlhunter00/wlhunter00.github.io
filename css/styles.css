@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 .is-active {
   font-weight: bold;
 }
@@ -21,19 +22,23 @@ hr {
 .card .media:not(:last-child) {
   margin-bottom: 0.75rem;
 }
+
 .card.card--reverse-order {
   flex-direction: row-reverse;
 }
+
 .card.is-horizontal {
   display: flex;
   flex-basis: 50ex;
   flex-grow: 0;
   flex-shrink: 1;
 }
+
 .card.is-horizontal .card-image {
   flex: 4;
   flex-shrink: 1;
 }
+
 .card.is-horizontal .card-image .image {
   display: block;
   position: relative;
@@ -41,11 +46,13 @@ hr {
   /* height: 100%; */
   /* width: 100%; */
 }
+
 .card.is-horizontal .card-image .image img {
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 .card.is-horizontal .card-content {
   flex: 3;
 }
@@ -62,6 +69,11 @@ hr {
 
 .is-black-blue {
   background-color: #3f5055;
+  color: white;
+}
+
+.is-secondary-blue {
+  background-color: #78A3B3;
   color: white;
 }
 
