@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .is-active {
@@ -12,7 +12,7 @@ img.is-rounded {
 }
 
 .container {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -85,6 +85,19 @@ hr {
 .section {
   padding-top: 0;
   padding-bottom: 1.5rem;
+}
+
+.display-inline {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.tag {
+  vertical-align: middle;
+}
+
+.icon.is-large.project {
+  height: 2rem;
 }
 
 /* Icon Fade */
