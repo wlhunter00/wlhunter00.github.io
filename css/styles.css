@@ -105,6 +105,11 @@ hr {
   background-color: #ed5444;
 }
 
+.tag.is-covid {
+  color: white;
+  background-color: #43a047;
+}
+
 .hvr-icon-fade:hover .hvr-icon,
 .hvr-icon-fade:focus .hvr-icon,
 .hvr-icon-fade:active .hvr-icon {
@@ -115,6 +120,12 @@ hr {
 .hvr-icon-fade:focus .hvr-icon.is-practicum,
 .hvr-icon-fade:active .hvr-icon.is-practicum {
   color: #ed5444;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-covid,
+.hvr-icon-fade:focus .hvr-icon.is-covid,
+.hvr-icon-fade:active .hvr-icon.is-covid {
+  color: #43a047;
 }
 
 .icon-link {
@@ -138,6 +149,10 @@ hr {
   color: #ed5444;
 }
 
+.breadcrumb.is-covid p {
+  color: #43a047;
+}
+
 .desktop-bar {
   display: none;
 }
@@ -146,6 +161,7 @@ hr {
   .desktop-bar {
     display: block;
   }
+
   .mobile-bar {
     display: none;
   }
