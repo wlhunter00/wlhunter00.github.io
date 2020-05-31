@@ -1,148 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      gtag("config", "UA-166818139-2");
+    </script>
 
-    gtag("config", "UA-166818139-2");
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
+    <link rel="stylesheet" href="./css/hover.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/animations.js"></script>
+    <title>Will Hunter</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/fav/site.webmanifest" />
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/fav/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
+    <meta name="msapplication-config" content="/fav/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/animations.js"></script>
-  <title>Will Hunter</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png" />
-  <link rel="manifest" href="/fav/site.webmanifest" />
-  <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
-  <link rel="shortcut icon" href="/fav/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#00aba9" />
-  <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
-  <meta name="msapplication-config" content="/fav/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
-</head>
-
-<body>
-  <nav class="navbar is-spaced" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item logo" href="https://willhunter.me">
-        <img src="./logos/no-box.png">
-      </a>
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div id="navbar-main" class="navbar-menu">
-      <div class="navbar-end">
-        <a href="index.html" class="navbar-item">
-          <span>About</span>
+  <body>
+    <nav class="navbar is-spaced" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item logo" href="https://willhunter.me">
+          <img src="./logos/no-box.png" />
         </a>
-        <a href="projects.html" class="navbar-item has-text-primary is-active">
-          My Work
-        </a>
-        <a href="" class="navbar-item">
-          My Journey
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbar-main"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
-    </div>
-  </nav>
-  <!-- Intro -->
-  <section class="section">
-    <div class="container has-text-centered">
-      <h1 class="title">My Projects</h1>
-    </div>
-  </section>
-  <!-- Practicum -->
-  <section class="section">
-    <div class="container has-text-centered">
-      <div class="box">
-        <div class="columns is-vcentered has-text-center">
-          <div class="column"><img src="./images/practicum5.png" alt="Practicum"></div>
-          <div class="column has-text-left">
-            <h2 class="title" style="margin-bottom:1rem;">Practicum</h2>
-            <div class="subtitle-container" style="margin-bottom:1rem;">
-              <div class="display-inline">
-                <p>May 2020</p>
-              </div>
-              <div class="display-inline">
-                <p>Startup / Website</p>
-              </div>
-            </div>
-            <div class="columns is-vcentered">
-              <div class="column">
-                <div class="content">
-                  <h3 class="subtitle is-italic" style="margin-bottom:10px;">Problem</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus incidunt cupiditate voluptatibus ipsa aliquam laborum sapiente necessitatibus, numquam error autem similique fuga odit minima recusandae, at unde. Illum,
-                    possimus,
-                    nesciunt.</p>
+      <div id="navbar-main" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="index.html" class="navbar-item">
+            <span>About</span>
+          </a>
+          <a
+            href="projects.html"
+            class="navbar-item has-text-primary is-active"
+          >
+            My Work
+          </a>
+          <a href="" class="navbar-item">
+            My Journey
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro -->
+    <section class="section">
+      <div class="container has-text-centered">
+        <h1 class="title">My Projects</h1>
+      </div>
+    </section>
+    <!-- Practicum -->
+    <section class="section">
+      <div class="container has-text-centered">
+        <div class="box">
+          <div class="columns is-vcentered has-text-center">
+            <div class="column">
+              <a href="https://practicum.us">
+                <img
+                  class="hvr-bob"
+                  src="./images/practicum5.png"
+                  alt="Practicum"
+                />
+              </a>
+              <div class="container desktop-bar" style="margin-bottom: 0px;">
+                <div class="display-inline">
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a href="https://practicum.us" class="icon-link">
+                      <i class="hvr-icon is-practicum fa-2x fas fa-columns"></i>
+                    </a>
+                  </span>
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a
+                      href="https://github.com/jbraunschweiger/InternshipSite"
+                      class="icon-link"
+                    >
+                      <i class="hvr-icon is-practicum fa-2x fab fa-github"></i>
+                    </a>
+                  </span>
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a
+                      href="https://www.linkedin.com/company/practicumus/"
+                      class="icon-link"
+                    >
+                      <i
+                        class="hvr-icon is-practicum fa-2x fab fa-linkedin"
+                      ></i>
+                    </a>
+                  </span>
+                </div>
+                <div class="display-inline">
+                  <p class="is-italic has-text-info is-size-5">Skills:</p>
+                </div>
+                <div class="display-inline">
+                  <div class="tags are-medium">
+                    <span class="tag hvr-pop is-practicum">Bulma</span>
+                    <span class="tag hvr-pop is-practicum">jQuery</span>
+                    <span class="tag hvr-pop is-practicum">Airtable</span>
+                  </div>
                 </div>
               </div>
-              <div class="column">
-                <div class="content">
-                  <h3 class="subtitle is-italic" style="margin-bottom:10px;">Product</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus incidunt cupiditate voluptatibus ipsa aliquam laborum sapiente necessitatibus, numquam error autem similique fuga odit minima recusandae, at unde. Illum,
-                    possimus,
-                    nesciunt.</p>
+            </div>
+            <div class="column has-text-left">
+              <h2 class="title" style="margin-bottom: 1rem;">
+                Practicum
+              </h2>
+              <div class="subtitle-container" style="margin-bottom: 1rem;">
+                <nav
+                  class="breadcrumb is-medium is-practicum"
+                  aria-label="breadcrumbs"
+                >
+                  <ul>
+                    <li class="is-italic"><p>May 2020</p></li>
+                    <li>
+                      <p>
+                        Co-Founder
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Personal Venture
+                      </p>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="columns is-vcentered">
+                <div class="column">
+                  <div class="content">
+                    <h3
+                      class="subtitle is-italic"
+                      style="margin-bottom: 10px; color: #ed5444;"
+                    >
+                      Problem
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Delectus incidunt cupiditate voluptatibus ipsa aliquam
+                      laborum sapiente necessitatibus, numquam error autem
+                      similique fuga odit minima recusandae, at unde. Illum,
+                      possimus, nesciunt.
+                    </p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <h3
+                      class="subtitle is-italic"
+                      style="margin-bottom: 10px; color: #ed5444;"
+                    >
+                      Product
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Delectus incidunt cupiditate voluptatibus ipsa aliquam
+                      laborum sapiente necessitatibus, numquam error autem
+                      similique fuga odit minima recusandae, at unde. Illum,
+                      possimus, nesciunt.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="container">
-              <div class="content">
-                <h3 class="subtitle is-italic" style="margin-bottom:10px;">Process</h3>
-                <ul style="margin-left:1em;">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sapiente facere qui, blanditiis quam expedita.</li>
-                  <li>Labore, ipsa, magni. Recusandae, consectetur voluptatem fugit in quae necessitatibus ab ullam ea voluptates, velit.</li>
-                  <li>Quae, quasi soluta repellendus. Delectus culpa voluptates dolorum autem quos ducimus rem accusamus dignissimos possimus.</li>
-                </ul>
+              <div class="container">
+                <div class="content">
+                  <h3
+                    class="subtitle is-italic"
+                    style="margin-bottom: 10px; color: #ed5444;"
+                  >
+                    Process
+                  </h3>
+                  <ul style="margin-left: 1em;">
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Suscipit sapiente facere qui, blanditiis quam expedita.
+                    </li>
+                    <li>
+                      Labore, ipsa, magni. Recusandae, consectetur voluptatem
+                      fugit in quae necessitatibus ab ullam ea voluptates,
+                      velit.
+                    </li>
+                    <li>
+                      Quae, quasi soluta repellendus. Delectus culpa voluptates
+                      dolorum autem quos ducimus rem accusamus dignissimos
+                      possimus.
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div class="container" style="margin-bottom:0px;">
-              <div class="display-inline">
-                <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-                  <a href="" class="icon-link">
-                    <i class="hvr-icon fa-2x fas fa-columns"></i>
-                  </a>
-                </span>
-                <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-                  <a href="" class="icon-link">
-                    <i class="hvr-icon fa-2x fab fa-github"></i>
-                  </a>
-                </span>
-              </div>
-              <div class="display-inline">
-                <p>Skills:</p>
-              </div>
-              <div class="display-inline">
-                <div class="tags">
-                  <!-- <span class="is-italic">Skills:</span> -->
-                  <span class="tag">Bulma</span>
-                  <span class="tag">Sass</span>
-                  <span class="tag">Leadership</span>
+              <div class="container mobile-bar" style="margin-bottom: 0px;">
+                <div class="display-inline">
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a href="https://practicum.us" class="icon-link">
+                      <i class="hvr-icon is-practicum fa-2x fas fa-columns"></i>
+                    </a>
+                  </span>
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a
+                      href="https://github.com/jbraunschweiger/InternshipSite"
+                      class="icon-link"
+                    >
+                      <i class="hvr-icon is-practicum fa-2x fab fa-github"></i>
+                    </a>
+                  </span>
+                  <span
+                    class="icon hvr-icon-bounce hvr-icon-fade is-large project"
+                  >
+                    <a
+                      href="https://www.linkedin.com/company/practicumus/"
+                      class="icon-link"
+                    >
+                      <i
+                        class="hvr-icon is-practicum fa-2x fab fa-linkedin"
+                      ></i>
+                    </a>
+                  </span>
+                </div>
+                <div class="display-inline">
+                  <p class="is-italic has-text-info is-size-5">Skills:</p>
+                </div>
+                <div class="display-inline">
+                  <div class="tags are-medium">
+                    <span class="tag hvr-pop is-practicum">Sass</span>
+                    <span class="tag hvr-pop is-practicum">jQuery</span>
+                    <span class="tag hvr-pop is-practicum">Airtable</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- <section class="section">
+    </section>
+    <!-- <section class="section">
     <div class="container has-text-centered box">
       <h1 class="title">I love to meet new people, feel free to reach out!</h1>
       <div class="columns is-mobile">
@@ -155,13 +301,12 @@
       </div>
     </div>
   </section> -->
-  <!-- Footer -->
-  <section class="section">
-    <div class="container">
-      <hr />
-      <p>© 2020 Designed and Developed by Will</p>
-    </div>
-  </section>
-</body>
-
+    <!-- Footer -->
+    <section class="section">
+      <div class="container">
+        <hr />
+        <p>© 2020 Designed and Developed by Will</p>
+      </div>
+    </section>
+  </body>
 </html>
