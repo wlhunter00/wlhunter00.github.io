@@ -171,9 +171,9 @@ hr {
     padding-right: 5rem !important;
   }
 
-  .project-process.bullets {
-    padding-left: 10rem !important;
-    padding-right: 10rem !important;
+  .project-problem-product {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
   }
 }
 
@@ -190,7 +190,7 @@ hr {
   font-size: 1.10rem !important;
 }
 
-.project-process {
+.project-process, .project-problem-product {
   padding-right: 1rem;
   padding-left: 1rem;
 }
