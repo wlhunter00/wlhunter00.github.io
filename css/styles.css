@@ -153,20 +153,35 @@ hr {
   color: #43a047;
 }
 
-.desktop-bar {
-  display: none;
+.links-bar, .skills-bar {
+  text-align: center !important;
 }
 
-@media only screen and (min-width: 775px) {
-  .desktop-bar {
-    display: block;
+@media only screen and (min-width: 765px) {
+  .links-bar {
+    text-align: right !important;
   }
 
-  .mobile-bar {
-    display: none;
+  .skills-bar {
+    text-align: left !important;
+  }
+
+  .project-process {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 }
 
 .has-text-practicum {
   color: #ed5444;
+}
+
+.project-photo {
+  width: 900px;
+  margin-bottom: 1rem;
+}
+
+.project-process {
+  padding-right: 0rem;
+  padding-left: 0rem;
 }
