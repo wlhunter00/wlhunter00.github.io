@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(".navbar-menu").toggleClass("is-active");
   });
 
-  if (isMobile.iOS()) {
-    $('a#covid').attr('href', 'https://testflight.apple.com/join/uNPRlb1W');
+  if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    $('#covid-link').attr('href', 'https://testflight.apple.com/join/uNPRlb1W');
   }
 });
