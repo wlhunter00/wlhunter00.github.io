@@ -110,6 +110,11 @@ hr {
   background-color: #43a047;
 }
 
+.tag.is-reddit {
+  color: white;
+  background-color: #23498f;
+}
+
 .hvr-icon-fade:hover .hvr-icon,
 .hvr-icon-fade:focus .hvr-icon,
 .hvr-icon-fade:active .hvr-icon {
@@ -126,6 +131,12 @@ hr {
 .hvr-icon-fade:focus .hvr-icon.is-covid,
 .hvr-icon-fade:active .hvr-icon.is-covid {
   color: #43a047;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-reddit,
+.hvr-icon-fade:focus .hvr-icon.is-reddit,
+.hvr-icon-fade:active .hvr-icon.is-reddit {
+  color: #23498f;
 }
 
 .icon-link {
@@ -151,6 +162,10 @@ hr {
 
 .breadcrumb.is-covid p {
   color: #43a047;
+}
+
+.breadcrumb.is-reddit p {
+  color: #23498f;
 }
 
 .links-bar, .skills-bar {
