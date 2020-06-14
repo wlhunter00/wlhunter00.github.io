@@ -115,6 +115,11 @@ hr {
   background-color: #23498f;
 }
 
+.tag.is-spike {
+  color: white;
+  background-color: #9e87f8;
+}
+
 .hvr-icon-fade:hover .hvr-icon,
 .hvr-icon-fade:focus .hvr-icon,
 .hvr-icon-fade:active .hvr-icon {
@@ -137,6 +142,12 @@ hr {
 .hvr-icon-fade:focus .hvr-icon.is-reddit,
 .hvr-icon-fade:active .hvr-icon.is-reddit {
   color: #23498f;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-spike,
+.hvr-icon-fade:focus .hvr-icon.is-spike,
+.hvr-icon-fade:active .hvr-icon.is-spike {
+  color: #9e87f8;
 }
 
 .icon-link {
@@ -166,6 +177,10 @@ hr {
 
 .breadcrumb.is-reddit p {
   color: #23498f;
+}
+
+.breadcrumb.is-spike p {
+  color: #9e87f8;
 }
 
 .links-bar, .skills-bar {
