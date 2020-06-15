@@ -112,12 +112,17 @@ hr {
 
 .tag.is-reddit {
   color: white;
-  background-color: #23498f;
+  background-color: #f4ba3f;
 }
 
 .tag.is-spike {
   color: white;
   background-color: #9e87f8;
+}
+
+.tag.is-opportunity {
+  color: white;
+  background-color: #002b49;
 }
 
 .hvr-icon-fade:hover .hvr-icon,
@@ -141,13 +146,19 @@ hr {
 .hvr-icon-fade:hover .hvr-icon.is-reddit,
 .hvr-icon-fade:focus .hvr-icon.is-reddit,
 .hvr-icon-fade:active .hvr-icon.is-reddit {
-  color: #23498f;
+  color: #f4ba3f;
 }
 
 .hvr-icon-fade:hover .hvr-icon.is-spike,
 .hvr-icon-fade:focus .hvr-icon.is-spike,
 .hvr-icon-fade:active .hvr-icon.is-spike {
   color: #9e87f8;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-opportunity,
+.hvr-icon-fade:focus .hvr-icon.is-opportunity,
+.hvr-icon-fade:active .hvr-icon.is-opportunity {
+  color: #002b49;
 }
 
 .icon-link {
@@ -176,11 +187,15 @@ hr {
 }
 
 .breadcrumb.is-reddit p {
-  color: #23498f;
+  color: #f4ba3f;
 }
 
 .breadcrumb.is-spike p {
   color: #9e87f8;
+}
+
+.breadcrumb.is-opportunity p {
+  color: #23498f;
 }
 
 .links-bar, .skills-bar {
