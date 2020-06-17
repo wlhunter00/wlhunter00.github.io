@@ -1,830 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag("config", "UA-166818139-2");
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
-    <link rel="stylesheet" href="./css/hover.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./js/animations.js"></script>
-    <title>Will Hunter</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/fav/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/fav/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/fav/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/fav/site.webmanifest" />
-    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="/fav/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#00aba9" />
-    <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
-    <meta name="msapplication-config" content="/fav/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
-  </head>
+    gtag("config", "UA-166818139-2");
+  </script>
 
-  <body>
-    <nav class="navbar is-spaced" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          class="navbar-item logo"
-          href="index.html"
-        >
-          <img src="./logos/no-box.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
+  <link rel="stylesheet" href="./css/hover.css" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/animations.js"></script>
+  <title>Will Hunter</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png" />
+  <link rel="manifest" href="/fav/site.webmanifest" />
+  <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="/fav/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#00aba9" />
+  <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
+  <meta name="msapplication-config" content="/fav/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+  <nav class="navbar is-spaced" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a target="_blank" rel="noopener noreferrer" class="navbar-item logo" href="index.html">
+        <img src="./logos/no-box.png" />
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbar-main" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="index.html" class="navbar-item">
+          <span>About</span>
         </a>
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbar-main"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a href="projects.html" class="navbar-item has-text-primary is-active">
+          My Work
         </a>
-      </div>
-      <div id="navbar-main" class="navbar-menu">
-        <div class="navbar-end">
-          <a href="index.html" class="navbar-item">
-            <span>About</span>
-          </a>
-          <a
-            href="projects.html"
-            class="navbar-item has-text-primary is-active"
-          >
-            My Work
-          </a>
-          <a href="" class="navbar-item">
-            My Journey
-          </a>
-        </div>
-      </div>
-    </nav>
-    <!-- Practicum -->
-    <section class="section">
-      <div class="container has-text-centered">
-        <div class="box">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://practicum.us"
-          >
-            <img
-              class="hvr-bob project-photo"
-              src="./images/practicum5.png"
-              alt="Practicum"
-            />
-          </a>
-          <h2 class="title" style="margin-bottom: 1rem;">
-            Practicum
-          </h2>
-          <div class="subtitle-container" style="margin-bottom: 1rem;">
-            <nav
-              class="breadcrumb is-centered is-medium is-practicum"
-              aria-label="breadcrumbs"
-            >
-              <ul>
-                <li class="is-italic">
-                  <p>May 2020</p>
-                </li>
-                <li>
-                  <p>
-                    Co-Founder
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Personal Startup
-                  </p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="columns has-text-left is-vcentered">
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #ed5444;"
-                >
-                  Problem
-                </h3>
-                <p class="is-size-5-5">
-                  Students can only work in an agile environment through an
-                  internship, but COVID-19 canceled many of these opportunities.
-                  Without the formal structure of a company, it is difficult for
-                  CS students to work on a meaningful project.
-                </p>
-              </div>
-            </div>
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #ed5444;"
-                >
-                  Product
-                </h3>
-                <p class="is-size-5-5">
-                  Practicum is a program designed to place students on teams
-                  that operate as a startup. The projects are sourced from
-                  entrepreneurs that need help developing an MVP. Teams have
-                  mentors that can guide the students through development.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container project-process">
-            <div class="content has-text-left">
-              <h3
-                class="subtitle has-text-centered"
-                style="margin-bottom: 10px; color: #ed5444;"
-              >
-                Process
-              </h3>
-              <ul style="margin-left: 1em;">
-                <li class="is-size-5-5">
-                  Developed a recruitment pipeline, which generated 300+
-                  applications and 15+ clients in two weeks. Interviewed
-                  students to find pain points.
-                </li>
-                <li class="is-size-5-5">
-                  Lead a team of 8 partners to build the curriculum. The primary
-                  KPI was conversion rate between interview rounds, which
-                  averaged 88%.
-                </li>
-                <li class="is-size-5-5">
-                  Vetted potential clients to ensure quality, maintaining a 33%
-                  acceptance rate. Flushed out features of products for student
-                  development teams.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="container" style="margin-top: 40px;">
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://practicum.us"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-practicum fa-2x fas fa-mouse-pointer"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jbraunschweiger/InternshipSite"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-practicum fa-2x fab fa-github"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/company/practicumus/"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-practicum fa-2x fab fa-linkedin"></i>
-              </a>
-            </span>
-          </div>
-          <div class="container has-text-centered">
-            <div class="tags display-inline are-medium">
-              <span class="tag hvr-pop is-practicum">Bulma</span>
-              <span class="tag hvr-pop is-practicum">jQuery</span>
-              <span class="tag hvr-pop is-practicum">Airtable</span>
-              <span class="tag hvr-pop is-practicum">Management</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Project Covid -->
-    <section class="section">
-      <div class="container has-text-centered">
-        <div class="box">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://project-covid.lfrinternational.org/"
-          >
-            <img
-              class="hvr-bob project-photo"
-              src="./images/covid.png"
-              alt="Project Covid"
-            />
-          </a>
-          <h2 class="title" style="margin-bottom: 1rem;">
-            Project Covid
-          </h2>
-          <div class="subtitle-container" style="margin-bottom: 1rem;">
-            <nav
-              class="breadcrumb is-centered is-medium is-covid"
-              aria-label="breadcrumbs"
-            >
-              <ul>
-                <li class="is-italic">
-                  <p>March 2020</p>
-                </li>
-                <li>
-                  <p>
-                    Co-Founder
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    LFR International
-                  </p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="columns has-text-left is-vcentered">
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #43a047;"
-                >
-                  Problem
-                </h3>
-                <p class="is-size-5-5">
-                  Information regarding COVID-19 is incredibly scattered, and
-                  more detailed sources are not user-friendly. There is no
-                  centralized, trustworthy location where a person can access
-                  information, statistics, and other resources quickly.
-                </p>
-              </div>
-            </div>
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #43a047;"
-                >
-                  Product
-                </h3>
-                <p class="is-size-5-5">
-                  Project Covid is a mobile app that aggregates vetted
-                  information regarding the pandemic. The app includes
-                  statistics, the latest news, educational toolkits, and local
-                  testing information and presents all sources used by the team.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container project-process">
-            <div class="content has-text-left">
-              <h3
-                class="subtitle has-text-centered"
-                style="margin-bottom: 10px; color: #43a047;"
-              >
-                Process
-              </h3>
-              <ul style="margin-left: 1em;">
-                <li class="is-size-5-5">
-                  Wrote 50+ user stories and prioritized which features the team
-                  should pursue, met with stakeholders and users to understand
-                  the use cases.
-                </li>
-                <li class="is-size-5-5">
-                  Managed a team of 12 engineers, assigned user stories and
-                  resolved roadblocks. Wrote majority of Express server used by
-                  app.
-                </li>
-                <li class="is-size-5-5">
-                  Oversaw launch of the app on TestFlight. Received feedback
-                  from 80+ beta testers and overhauled the home screen.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="container has-text-centered" style="margin-top: 40px;">
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://testflight.apple.com/join/uNPRlb1W"
-                class="icon-link"
-              >
-                <i
-                  class="hvr-icon is-covid fa-2x fas fa-arrow-alt-circle-down"
-                ></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://project-covid.lfrinternational.org/"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-covid fa-2x fas fa-mouse-pointer"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/wlhunter00/Project-Covid"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-covid fa-2x fab fa-github"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://youtu.be/e9MC-1XheNM"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-covid fa-2x fab fa-youtube"></i>
-              </a>
-            </span>
-          </div>
-          <div class="container has-text-centered">
-            <div class="tags are-medium display-inline">
-              <span class="tag hvr-pop is-covid">React Native</span>
-              <span class="tag hvr-pop is-covid">Express</span>
-              <span class="tag hvr-pop is-covid">Heroku</span>
-              <span class="tag hvr-pop is-covid">Product Management</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Reddit Bot -->
-    <section class="section">
-      <div class="container has-text-centered">
-        <div class="box">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/wlhunter00/RedditBotADP/"
-          >
-            <img
-              class="hvr-bob project-photo"
-              src="./images/reddit.png"
-              alt="Reddit Scraping Bot"
-            />
-          </a>
-          <h2 class="title" style="margin-bottom: 1rem;">
-            RedditSense
-          </h2>
-          <div class="subtitle-container" style="margin-bottom: 1rem;">
-            <nav
-              class="breadcrumb is-centered is-medium is-reddit"
-              aria-label="breadcrumbs"
-            >
-              <ul>
-                <li class="is-italic">
-                  <p>January 2020</p>
-                </li>
-                <li>
-                  <p>
-                    Risk Manager
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Alpha Delta Phi
-                  </p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="columns has-text-left is-vcentered">
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #f4ba3f;"
-                >
-                  Problem
-                </h3>
-                <p class="is-size-5-5">
-                  The early stages of my organization’s recruitment cycle are
-                  very reliant on qualitative observations about potential
-                  candidates. With a large number of students to consider, there
-                  was no quantitative measure of fit for the organization.
-                </p>
-              </div>
-            </div>
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #f4ba3f;"
-                >
-                  Product
-                </h3>
-                <p class="is-size-5-5">
-                  The Recruitment Reddit Bot is a python bot that gathers data
-                  regarding comments members have left about candidates in a
-                  private subreddit. It assigns sentiment to the messages and
-                  then calculates the traction a candidate has within the
-                  organization.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container project-process">
-            <div class="content has-text-left">
-              <h3
-                class="subtitle has-text-centered"
-                style="margin-bottom: 10px; color: #f4ba3f;"
-              >
-                Process
-              </h3>
-              <ul style="margin-left: 1em;">
-                <li class="is-size-5-5">
-                  Utilized Reddit Praw Python API to parse Reddit 1200+ comments
-                  using Regex. Parsed keywords to determine the sentiment of
-                  feedback.
-                </li>
-                <li class="is-size-5-5">
-                  The bot used multiple metrics such as upvotes, comment
-                  sentiment, and engagement to calculate an excitement score for
-                  a candidate.
-                </li>
-                <li class="is-size-5-5">
-                  Automatically populated a Google Sheets document so the
-                  recruitment team could track the statistics generated.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="container has-text-centered" style="margin-top: 40px;">
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/wlhunter00/RedditBotADP/"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-reddit fa-2x fab fa-github"></i>
-              </a>
-            </span>
-          </div>
-          <div class="container has-text-centered">
-            <div class="tags are-medium display-inline">
-              <span class="tag hvr-pop is-reddit">Python</span>
-              <span class="tag hvr-pop is-reddit">PRAW API</span>
-              <span class="tag hvr-pop is-reddit">Google API</span>
-              <span class="tag hvr-pop is-reddit">Data Science</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SpikeFinder -->
-    <section class="section">
-      <div class="container has-text-centered">
-        <div class="box">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://spikeball-lfg-frontend.herokuapp.com/"
-          >
-            <img
-              class="hvr-bob project-photo"
-              src="./images/spike.png"
-              alt="Spikeball Group Finder"
-            />
-          </a>
-          <h2 class="title" style="margin-bottom: 1rem;">
-            SpikeFinder
-          </h2>
-          <div class="subtitle-container" style="margin-bottom: 1rem;">
-            <nav
-              class="breadcrumb is-centered is-medium is-spike"
-              aria-label="breadcrumbs"
-            >
-              <ul>
-                <li class="is-italic">
-                  <p>December 2019</p>
-                </li>
-                <li>
-                  <p>
-                    Personal Project
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    WashU
-                  </p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="columns has-text-left is-vcentered">
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #9e87f8;"
-                >
-                  Problem
-                </h3>
-                <p class="is-size-5-5">
-                  At WashU, there is a large portion of the community that loves
-                  to play a game of Spikeball, and but there is no centralized
-                  system to find a group. The target audience is first-year
-                  students who are new to campus and are looking for people to
-                  meet.
-                </p>
-              </div>
-            </div>
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #9e87f8;"
-                >
-                  Product
-                </h3>
-                <p class="is-size-5-5">
-                  SpikeFinder is a group finder platform to help people
-                  passionate about the sport find likeminded individuals. The
-                  product brings people together by allowing them to post their
-                  availability and group size and enables others to join the
-                  session to start playing.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container project-process">
-            <div class="content has-text-left">
-              <h3
-                class="subtitle has-text-centered"
-                style="margin-bottom: 10px; color: #9e87f8;"
-              >
-                Process
-              </h3>
-              <ul style="margin-left: 1em;">
-                <li class="is-size-5-5">
-                  Developed frontend in React to ensure quick load times.
-                  Implemented React Hooks to increase scalability throughout the
-                  codebase.
-                </li>
-                <li class="is-size-5-5">
-                  Built backend Node.js REST API with Express, implementing
-                  authentication tokens to guard user data through OAuth.
-                </li>
-                <li class="is-size-5-5">
-                  Stored data in MongoDB NoSQL database and implemented Mongoose
-                  to fetch data using SQL-queries.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="container has-text-centered" style="margin-top: 40px;">
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://spikeball-lfg-frontend.herokuapp.com/"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-spike fa-2x fas fa-mouse-pointer"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/wlhunter00/Spikeball-Looking-For-Group"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-spike fa-2x fab fa-github"></i>
-              </a>
-            </span>
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://spikeball-lfg-backend.herokuapp.com/api/posts/"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-spike fa-2x fas fa-server"></i>
-              </a>
-            </span>
-          </div>
-          <div class="container has-text-centered">
-            <div class="tags are-medium display-inline">
-              <span class="tag hvr-pop is-spike">React</span>
-              <span class="tag hvr-pop is-spike">Node.js</span>
-              <span class="tag hvr-pop is-spike">Express</span>
-              <span class="tag hvr-pop is-spike">MongoDB</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Opportunity Hunter -->
-    <section class="section">
-      <div class="container has-text-centered">
-        <div class="box">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/wlhunter00/AM-Automated-Opportunity-Capture"
-          >
-            <img
-              class="hvr-bob project-photo"
-              src="./images/opportunity.png"
-              alt="Opportunity Hunter"
-            />
-          </a>
-          <h2 class="title" style="margin-bottom: 1rem;">
-            Opportunity Hunter
-          </h2>
-          <div class="subtitle-container" style="margin-bottom: 1rem;">
-            <nav
-              class="breadcrumb is-centered is-medium is-opportunity"
-              aria-label="breadcrumbs"
-            >
-              <ul>
-                <li class="is-italic">
-                  <p>June 2019</p>
-                </li>
-                <li>
-                  <p>
-                    Software Development Intern
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Alvarez & Marsal
-                  </p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="columns has-text-left is-vcentered">
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #23498f;"
-                >
-                  Problem
-                </h3>
-                <p class="is-size-5-5">
-                  Most of the clients that the Data Forensics works with are
-                  sourced by upper-management. However, there is a large market
-                  of public sector data opportunities that the firm wasn’t
-                  taping into, and the team was interested in this potential
-                  revenue stream.
-                </p>
-              </div>
-            </div>
-            <div class="column project-problem-product">
-              <div class="content">
-                <h3
-                  class="subtitle has-text-centered"
-                  style="margin-bottom: 10px; color: #23498f;"
-                >
-                  Product
-                </h3>
-                <p class="is-size-5-5">
-                  The Opportunity Hunter is a python tool that automatically
-                  scrapes RFP’s (Request For Proposal) posted by local and
-                  national governments regarding data forensics. This
-                  information is then parsed and presented to the team in a
-                  formal daily report.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container project-process">
-            <div class="content has-text-left">
-              <h3
-                class="subtitle has-text-centered"
-                style="margin-bottom: 10px; color: #23498f;"
-              >
-                Process
-              </h3>
-              <ul style="margin-left: 1em;">
-                <li class="is-size-5-5">
-                  Scraped information from sites using Python libraries
-                  BeautifulSoup and Selenium to parse website’s source code, as
-                  well as API requests.
-                </li>
-                <li class="is-size-5-5">
-                  Wrote SQL queries to clean and store gathered data in an MS
-                  SQL Server database. Parsed the information to determine
-                  relevance to the team.
-                </li>
-                <li class="is-size-5-5">
-                  Built Pandas DataFrames to export data to an Excel spreadsheet
-                  to provide 20,000+ potential business opportunities in an
-                  emailed report.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="container has-text-centered" style="margin-top: 40px;">
-            <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/wlhunter00/AM-Automated-Opportunity-Capture"
-                class="icon-link"
-              >
-                <i class="hvr-icon is-opportunity fa-2x fab fa-github"></i>
-              </a>
-            </span>
-          </div>
-          <div class="container has-text-centered">
-            <div class="tags are-medium display-inline">
-              <span class="tag hvr-pop is-opportunity">Python</span>
-              <span class="tag hvr-pop is-opportunity">MS SQL</span>
-              <span class="tag hvr-pop is-opportunity">Selenium</span>
-              <span class="tag hvr-pop is-opportunity">Beautiful Soup</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- <section class="section">
-    <div class="container has-text-centered box">
-      <h1 class="title">I love to meet new people, feel free to reach out!</h1>
-      <div class="columns is-mobile">
-        <div class="column"><span class="icon hvr-icon-fade is-large"><a href="mailto:wlhunter00@gmail.com" class="icon-link"><i class="hvr-icon fa-3x fas fa-envelope"></i></a></span></div>
-        <div class="column"><span class="icon hvr-icon-fade is-large"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/wlhunter/" class="icon-link"><i class="hvr-icon fa-3x fab fa-linkedin"></i></a></span></div>
-        <div class="column"><span class="icon hvr-icon-fade is-large"><a target="_blank" rel="noopener noreferrer" href="https://github.com/wlhunter00/" class="icon-link"><i class="hvr-icon fa-3x fab fa-github"></i></a></span></div>
-        <div class="column"><span class="icon hvr-icon-fade is-large"><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/user/wlhunter00?si=g1JXtdM0TcSCvaVQgS2gWA" class="icon-link"><i
-                class="hvr-icon fa-3x fab fa-spotify"></i></a></span></div>
-        <div class="column"><span class="icon hvr-icon-fade is-large"><a target="_blank" rel="noopener noreferrer" href="http://twitch.tv/huntingszn" class="icon-link"><i class="hvr-icon fa-3x fab fa-twitch"></i></a></span></div>
+        <a href="" class="navbar-item">
+          My Journey
+        </a>
       </div>
     </div>
-  </section> -->
-    <!-- Footer -->
-    <section class="section">
-      <div class="container">
-        <hr />
-        <div class="container">
-          <p class="display-inline">
-            © 2020 Designed and Developed by Will. You can view the code here:
-          </p>
-          <span
-            class="icon hvr-icon-bounce hvr-icon-fade is-large project has-text-centered"
-          >
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/wlhunter00/wlhunter00.github.io"
-              class="icon-link"
-            >
-              <i class="hvr-icon fa-2x fab fa-github"></i>
+  </nav>
+  <!-- Practicum -->
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="box">
+        <a target="_blank" rel="noopener noreferrer" href="https://practicum.us">
+          <img class="hvr-bob project-photo" src="./images/practicum5.png" alt="Practicum" />
+        </a>
+        <h2 class="title" style="margin-bottom: 1rem;">
+          Practicum
+        </h2>
+        <div class="subtitle-container" style="margin-bottom: 1rem;">
+          <nav class="breadcrumb is-centered is-medium is-practicum" aria-label="breadcrumbs">
+            <ul>
+              <li class="is-italic">
+                <p>May 2020</p>
+              </li>
+              <li>
+                <p>
+                  Co-Founder
+                </p>
+              </li>
+              <li>
+                <p>
+                  Personal Startup
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns has-text-left is-vcentered">
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #ed5444;">
+                Problem
+              </h3>
+              <p class="is-size-5-5">
+                Students can only work in an agile environment through an
+                internship, but COVID-19 canceled many of these opportunities.
+                Without the formal structure of a company, it is difficult for
+                CS students to work on a meaningful project.
+              </p>
+            </div>
+          </div>
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #ed5444;">
+                Product
+              </h3>
+              <p class="is-size-5-5">
+                Practicum is designed to introduce students to a community of teams
+                that operate as startups. The projects are sourced from
+                entrepreneurs that need help developing an MVP. Teams have
+                mentors that guide the students through the program.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container project-process">
+          <div class="content has-text-left">
+            <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #ed5444;">
+              Process
+            </h3>
+            <ul style="margin-left: 1em;">
+              <li class="is-size-5-5">
+                Developed a recruitment pipeline, which generated 300+
+                applications and 15+ clients in two weeks. Wrote out best practices for development.
+              </li>
+              <li class="is-size-5-5">
+                Led a team of 8 partners to build the curriculum. The primary
+                KPI was conversion rate between interview rounds, which
+                averaged 88%.
+              </li>
+              <li class="is-size-5-5">
+                Vetted potential clients to ensure quality, maintaining a 33%
+                acceptance rate. Composed a feature list for each product for efficent onboarding.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container" style="margin-top: 40px;">
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://practicum.us" class="icon-link">
+              <i class="hvr-icon is-practicum fa-2x fas fa-mouse-pointer"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/jbraunschweiger/InternshipSite"
+              class="icon-link">
+              <i class="hvr-icon is-practicum fa-2x fab fa-github"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/practicumus/"
+              class="icon-link">
+              <i class="hvr-icon is-practicum fa-2x fab fa-linkedin"></i>
             </a>
           </span>
         </div>
+        <div class="container has-text-centered">
+          <div class="tags display-inline are-medium">
+            <span class="tag hvr-pop is-practicum">Bulma</span>
+            <span class="tag hvr-pop is-practicum">jQuery</span>
+            <span class="tag hvr-pop is-practicum">Airtable</span>
+            <span class="tag hvr-pop is-practicum">Management</span>
+          </div>
+        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+
+  <!-- Project Covid -->
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="box">
+        <a target="_blank" rel="noopener noreferrer" href="http://project-covid.lfrinternational.org/">
+          <img class="hvr-bob project-photo" src="./images/covid.png" alt="Project Covid" />
+        </a>
+        <h2 class="title" style="margin-bottom: 1rem;">
+          Project Covid
+        </h2>
+        <div class="subtitle-container" style="margin-bottom: 1rem;">
+          <nav class="breadcrumb is-centered is-medium is-covid" aria-label="breadcrumbs">
+            <ul>
+              <li class="is-italic">
+                <p>March 2020</p>
+              </li>
+              <li>
+                <p>
+                  Co-Founder
+                </p>
+              </li>
+              <li>
+                <p>
+                  LFR International
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns has-text-left is-vcentered">
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #43a047;">
+                Problem
+              </h3>
+              <p class="is-size-5-5">
+                Information regarding COVID-19 is incredibly scattered, and
+                more detailed sources are not user-friendly. There is no
+                centralized, trustworthy location where a person can access
+                information, statistics, and other resources quickly.
+              </p>
+            </div>
+          </div>
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #43a047;">
+                Product
+              </h3>
+              <p class="is-size-5-5">
+                Project Covid is a mobile app that aggregates trustworthy
+                information regarding the pandemic. The app includes
+                statistics, the latest news, educational toolkits, and local
+                testing information and presents all sources used by the team.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container project-process">
+          <div class="content has-text-left">
+            <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #43a047;">
+              Process
+            </h3>
+            <ul style="margin-left: 1em;">
+              <li class="is-size-5-5">
+                Wrote 50+ user stories and prioritized which features the team
+                should pursue, met with stakeholders and users to understand
+                the use cases.
+              </li>
+              <li class="is-size-5-5">
+                Managed a team of 12 engineers, assigned user stories and
+                resolved roadblocks. Wrote majority of Express server used by
+                app.
+              </li>
+              <li class="is-size-5-5">
+                Oversaw launch of the app on TestFlight. Received feedback
+                from 80+ beta testers and overhauled the home screen.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container has-text-centered" style="margin-top: 40px;">
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://testflight.apple.com/join/uNPRlb1W"
+              class="icon-link">
+              <i class="hvr-icon is-covid fa-2x fas fa-arrow-alt-circle-down"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="http://project-covid.lfrinternational.org/"
+              class="icon-link">
+              <i class="hvr-icon is-covid fa-2x fas fa-mouse-pointer"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/wlhunter00/Project-Covid"
+              class="icon-link">
+              <i class="hvr-icon is-covid fa-2x fab fa-github"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/e9MC-1XheNM" class="icon-link">
+              <i class="hvr-icon is-covid fa-2x fab fa-youtube"></i>
+            </a>
+          </span>
+        </div>
+        <div class="container has-text-centered">
+          <div class="tags are-medium display-inline">
+            <span class="tag hvr-pop is-covid">React Native</span>
+            <span class="tag hvr-pop is-covid">Express</span>
+            <span class="tag hvr-pop is-covid">Heroku</span>
+            <span class="tag hvr-pop is-covid">Product Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Reddit Bot -->
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="box">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/wlhunter00/RedditBotADP/">
+          <img class="hvr-bob project-photo" src="./images/reddit.png" alt="Reddit Scraping Bot" />
+        </a>
+        <h2 class="title" style="margin-bottom: 1rem;">
+          RedditSense
+        </h2>
+        <div class="subtitle-container" style="margin-bottom: 1rem;">
+          <nav class="breadcrumb is-centered is-medium is-reddit" aria-label="breadcrumbs">
+            <ul>
+              <li class="is-italic">
+                <p>January 2020</p>
+              </li>
+              <li>
+                <p>
+                  Risk Manager
+                </p>
+              </li>
+              <li>
+                <p>
+                  Alpha Delta Phi
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns has-text-left is-vcentered">
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #f4ba3f;">
+                Problem
+              </h3>
+              <p class="is-size-5-5">
+                The early stages of my organization’s recruitment cycle are
+                very reliant on qualitative observations about potential
+                candidates. With a large number of students to consider, there
+                was no quantitative measure of fit for the organization.
+              </p>
+            </div>
+          </div>
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #f4ba3f;">
+                Product
+              </h3>
+              <p class="is-size-5-5">
+                The Recruitment Reddit Bot is a python bot that gathers data
+                regarding comments members have left about candidates in a
+                private subreddit. It assigns sentiment to the messages and
+                then calculates the traction a candidate has within the
+                organization.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container project-process">
+          <div class="content has-text-left">
+            <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #f4ba3f;">
+              Process
+            </h3>
+            <ul style="margin-left: 1em;">
+              <li class="is-size-5-5">
+                Utilized Reddit Praw Python API to parse Reddit 1200+ comments
+                using Regex. Parsed keywords to determine the sentiment of
+                feedback.
+              </li>
+              <li class="is-size-5-5">
+                The bot used multiple metrics such as upvotes, comment
+                sentiment, and engagement to calculate an excitement score for
+                a candidate.
+              </li>
+              <li class="is-size-5-5">
+                Automatically populated a Google Sheets document so the
+                recruitment team could track the statistics generated.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container has-text-centered" style="margin-top: 40px;">
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/wlhunter00/RedditBotADP/"
+              class="icon-link">
+              <i class="hvr-icon is-reddit fa-2x fab fa-github"></i>
+            </a>
+          </span>
+        </div>
+        <div class="container has-text-centered">
+          <div class="tags are-medium display-inline">
+            <span class="tag hvr-pop is-reddit">Python</span>
+            <span class="tag hvr-pop is-reddit">PRAW API</span>
+            <span class="tag hvr-pop is-reddit">Google API</span>
+            <span class="tag hvr-pop is-reddit">Data Science</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SpikeFinder -->
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="box">
+        <a target="_blank" rel="noopener noreferrer" href="http://spikeball-lfg-frontend.herokuapp.com/">
+          <img class="hvr-bob project-photo" src="./images/spike.png" alt="Spikeball Group Finder" />
+        </a>
+        <h2 class="title" style="margin-bottom: 1rem;">
+          SpikeFinder
+        </h2>
+        <div class="subtitle-container" style="margin-bottom: 1rem;">
+          <nav class="breadcrumb is-centered is-medium is-spike" aria-label="breadcrumbs">
+            <ul>
+              <li class="is-italic">
+                <p>December 2019</p>
+              </li>
+              <li>
+                <p>
+                  Personal Project
+                </p>
+              </li>
+              <li>
+                <p>
+                  WashU
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns has-text-left is-vcentered">
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #9e87f8;">
+                Problem
+              </h3>
+              <p class="is-size-5-5">
+                At WashU, there is a large portion of the community that loves
+                to play a game of Spikeball, and but there is no centralized
+                system to find a group. The target audience is first-year
+                students who are new to campus and are looking for people to
+                meet.
+              </p>
+            </div>
+          </div>
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #9e87f8;">
+                Product
+              </h3>
+              <p class="is-size-5-5">
+                SpikeFinder is a group finder platform to help people
+                passionate about the sport find like minded individuals. The
+                product brings people together by allowing them to post their
+                availability and group size and enables others to join the
+                session to start playing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container project-process">
+          <div class="content has-text-left">
+            <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #9e87f8;">
+              Process
+            </h3>
+            <ul style="margin-left: 1em;">
+              <li class="is-size-5-5">
+                Developed frontend in React to ensure quick load times.
+                Implemented React Hooks to increase scalability throughout the
+                codebase.
+              </li>
+              <li class="is-size-5-5">
+                Built backend Node.js REST API with Express, implementing
+                authentication tokens to guard user data through OAuth.
+              </li>
+              <li class="is-size-5-5">
+                Stored data in MongoDB NoSQL database and implemented Mongoose
+                to fetch data using SQL-queries.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container has-text-centered" style="margin-top: 40px;">
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="http://spikeball-lfg-frontend.herokuapp.com/"
+              class="icon-link">
+              <i class="hvr-icon is-spike fa-2x fas fa-mouse-pointer"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/wlhunter00/Spikeball-Looking-For-Group" class="icon-link">
+              <i class="hvr-icon is-spike fa-2x fab fa-github"></i>
+            </a>
+          </span>
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer" href="http://spikeball-lfg-backend.herokuapp.com/api/posts/"
+              class="icon-link">
+              <i class="hvr-icon is-spike fa-2x fas fa-server"></i>
+            </a>
+          </span>
+        </div>
+        <div class="container has-text-centered">
+          <div class="tags are-medium display-inline">
+            <span class="tag hvr-pop is-spike">React</span>
+            <span class="tag hvr-pop is-spike">Node.js</span>
+            <span class="tag hvr-pop is-spike">Express</span>
+            <span class="tag hvr-pop is-spike">MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Opportunity Hunter -->
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="box">
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://github.com/wlhunter00/AM-Automated-Opportunity-Capture">
+          <img class="hvr-bob project-photo" src="./images/opportunity.png" alt="Opportunity Hunter" />
+        </a>
+        <h2 class="title" style="margin-bottom: 1rem;">
+          Opportunity Hunter
+        </h2>
+        <div class="subtitle-container" style="margin-bottom: 1rem;">
+          <nav class="breadcrumb is-centered is-medium is-opportunity" aria-label="breadcrumbs">
+            <ul>
+              <li class="is-italic">
+                <p>June 2019</p>
+              </li>
+              <li>
+                <p>
+                  Software Development Intern
+                </p>
+              </li>
+              <li>
+                <p>
+                  Alvarez & Marsal
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="columns has-text-left is-vcentered">
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #23498f;">
+                Problem
+              </h3>
+              <p class="is-size-5-5">
+                Most of the clients that the Data Forensics works with are
+                sourced by upper-management. However, there is a large market
+                of public sector data opportunities that the firm wasn’t
+                taping into, and the team was interested in this potential
+                revenue stream.
+              </p>
+            </div>
+          </div>
+          <div class="column project-problem-product">
+            <div class="content">
+              <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #23498f;">
+                Product
+              </h3>
+              <p class="is-size-5-5">
+                The Opportunity Hunter is a python tool that automatically
+                scrapes RFP’s (Request For Proposal) posted by local and
+                national governments regarding data forensics. This
+                information is then parsed and presented to the team in a
+                formal daily report.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container project-process">
+          <div class="content has-text-left">
+            <h3 class="subtitle has-text-centered" style="margin-bottom: 10px; color: #23498f;">
+              Process
+            </h3>
+            <ul style="margin-left: 1em;">
+              <li class="is-size-5-5">
+                Scraped information from sites using Python libraries
+                BeautifulSoup and Selenium to parse website’s source code, as
+                well as API requests.
+              </li>
+              <li class="is-size-5-5">
+                Wrote SQL queries to clean and store gathered data in an MS
+                SQL Server database. Parsed the information to determine
+                relevance to the team.
+              </li>
+              <li class="is-size-5-5">
+                Built Pandas DataFrames to export data to an Excel spreadsheet
+                to provide 20,000+ potential business opportunities in an
+                emailed report.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container has-text-centered" style="margin-top: 40px;">
+          <span class="icon hvr-icon-bounce hvr-icon-fade is-large project">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://github.com/wlhunter00/AM-Automated-Opportunity-Capture" class="icon-link">
+              <i class="hvr-icon is-opportunity fa-2x fab fa-github"></i>
+            </a>
+          </span>
+        </div>
+        <div class="container has-text-centered">
+          <div class="tags are-medium display-inline">
+            <span class="tag hvr-pop is-opportunity">Python</span>
+            <span class="tag hvr-pop is-opportunity">MS SQL</span>
+            <span class="tag hvr-pop is-opportunity">Selenium</span>
+            <span class="tag hvr-pop is-opportunity">Beautiful Soup</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section class="section">
+    <div class="container">
+      <hr />
+      <p class="display-inline"></a>
+        © 2020 Designed and Developed by Will. You can view the code <a target="_blank" rel="noopener noreferrer"
+          href="https://github.com/wlhunter00/wlhunter00.github.io">here</a>.
+      </p>
+    </div>
+  </section>
+</body>
+
 </html>
