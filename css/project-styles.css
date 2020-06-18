@@ -1,0 +1,106 @@
+.tag.is-practicum {
+    color: white;
+    background-color: #ed5444;
+}
+
+.tag.is-covid {
+    color: white;
+    background-color: #43a047;
+}
+
+.tag.is-reddit {
+    color: white;
+    background-color: #f4ba3f;
+}
+
+.tag.is-spike {
+    color: white;
+    background-color: #9e87f8;
+}
+
+.tag.is-opportunity {
+    color: white;
+    background-color: #002b49;
+}
+
+.hvr-icon-fade:hover .hvr-icon,
+.hvr-icon-fade:focus .hvr-icon,
+.hvr-icon-fade:active .hvr-icon {
+    color: #62aabd;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-practicum,
+.hvr-icon-fade:focus .hvr-icon.is-practicum,
+.hvr-icon-fade:active .hvr-icon.is-practicum {
+    color: #ed5444;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-covid,
+.hvr-icon-fade:focus .hvr-icon.is-covid,
+.hvr-icon-fade:active .hvr-icon.is-covid {
+    color: #43a047;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-reddit,
+.hvr-icon-fade:focus .hvr-icon.is-reddit,
+.hvr-icon-fade:active .hvr-icon.is-reddit {
+    color: #f4ba3f;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-spike,
+.hvr-icon-fade:focus .hvr-icon.is-spike,
+.hvr-icon-fade:active .hvr-icon.is-spike {
+    color: #9e87f8;
+}
+
+.hvr-icon-fade:hover .hvr-icon.is-opportunity,
+.hvr-icon-fade:focus .hvr-icon.is-opportunity,
+.hvr-icon-fade:active .hvr-icon.is-opportunity {
+    color: #002b49;
+}
+
+.breadcrumb.is-practicum p {
+    color: #ed5444;
+}
+
+.breadcrumb.is-covid p {
+    color: #43a047;
+}
+
+.breadcrumb.is-reddit p {
+    color: #f4ba3f;
+}
+
+.breadcrumb.is-spike p {
+    color: #9e87f8;
+}
+
+.breadcrumb.is-opportunity p {
+    color: #23498f;
+}
+
+.has-text-practicum {
+    color: #ed5444;
+}
+
+@media only screen and (min-width: 765px) {
+    .project-process {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+    .project-problem-product {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+.project-photo {
+    width: 800px;
+    margin-bottom: 1rem;
+}
+
+.project-process,
+.project-problem-product {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

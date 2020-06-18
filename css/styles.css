@@ -1,241 +1,88 @@
 body {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .is-active {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 img.is-rounded {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 hr {
-  border: 0.5px solid #7a7a7a;
-}
-
-.card .media:not(:last-child) {
-  margin-bottom: 0.75rem;
-}
-
-.card.card--reverse-order {
-  flex-direction: row-reverse;
-}
-
-.card.is-horizontal {
-  display: flex;
-  flex-basis: 50ex;
-  flex-grow: 0;
-  flex-shrink: 1;
-}
-
-.card.is-horizontal .card-image {
-  flex: 4;
-  flex-shrink: 1;
-}
-
-.card.is-horizontal .card-image .image {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  /* height: 100%; */
-  /* width: 100%; */
-}
-
-.card.is-horizontal .card-image .image img {
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.card.is-horizontal .card-content {
-  flex: 3;
+    border: 0.5px solid #7a7a7a;
 }
 
 .is-light-accent {
-  background-color: #89a9ad;
-  color: white;
+    background-color: #89a9ad;
+    color: white;
 }
 
 .is-dark-accent {
-  background-color: #777f84;
-  color: white;
+    background-color: #777f84;
+    color: white;
 }
 
 .is-black-blue {
-  background-color: #3f5055;
-  color: white;
+    background-color: #3f5055;
+    color: white;
 }
 
 .is-secondary-blue {
-  background-color: #78a3b3;
-  color: white;
+    background-color: #78a3b3;
+    color: white;
 }
 
 .is-white-blue {
-  background-color: #d2e9e9;
-  color: white;
+    background-color: #d2e9e9;
+    color: white;
 }
 
 .section {
-  padding-top: 0;
-  padding-bottom: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
 }
 
 .display-inline {
-  vertical-align: middle;
-  display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .tag {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .icon.is-large.project {
-  height: 2rem;
-}
-
-.tag.is-practicum {
-  color: white;
-  background-color: #ed5444;
-}
-
-.tag.is-covid {
-  color: white;
-  background-color: #43a047;
-}
-
-.tag.is-reddit {
-  color: white;
-  background-color: #f4ba3f;
-}
-
-.tag.is-spike {
-  color: white;
-  background-color: #9e87f8;
-}
-
-.tag.is-opportunity {
-  color: white;
-  background-color: #002b49;
-}
-
-.hvr-icon-fade:hover .hvr-icon,
-.hvr-icon-fade:focus .hvr-icon,
-.hvr-icon-fade:active .hvr-icon {
-  color: #62aabd;
-}
-
-.hvr-icon-fade:hover .hvr-icon.is-practicum,
-.hvr-icon-fade:focus .hvr-icon.is-practicum,
-.hvr-icon-fade:active .hvr-icon.is-practicum {
-  color: #ed5444;
-}
-
-.hvr-icon-fade:hover .hvr-icon.is-covid,
-.hvr-icon-fade:focus .hvr-icon.is-covid,
-.hvr-icon-fade:active .hvr-icon.is-covid {
-  color: #43a047;
-}
-
-.hvr-icon-fade:hover .hvr-icon.is-reddit,
-.hvr-icon-fade:focus .hvr-icon.is-reddit,
-.hvr-icon-fade:active .hvr-icon.is-reddit {
-  color: #f4ba3f;
-}
-
-.hvr-icon-fade:hover .hvr-icon.is-spike,
-.hvr-icon-fade:focus .hvr-icon.is-spike,
-.hvr-icon-fade:active .hvr-icon.is-spike {
-  color: #9e87f8;
-}
-
-.hvr-icon-fade:hover .hvr-icon.is-opportunity,
-.hvr-icon-fade:focus .hvr-icon.is-opportunity,
-.hvr-icon-fade:active .hvr-icon.is-opportunity {
-  color: #002b49;
+    height: 2rem;
 }
 
 .icon-link {
-  color: #333233;
+    color: #333233;
 }
 
 .breadcrumb p {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 0 0.35em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 0.35em;
 }
 
 .breadcrumb li:first-child p {
-  padding-left: 0;
-  color: #333233;
-  padding-right: 0.5rem;
-}
-
-.breadcrumb.is-practicum p {
-  color: #ed5444;
-}
-
-.breadcrumb.is-covid p {
-  color: #43a047;
-}
-
-.breadcrumb.is-reddit p {
-  color: #f4ba3f;
-}
-
-.breadcrumb.is-spike p {
-  color: #9e87f8;
-}
-
-.breadcrumb.is-opportunity p {
-  color: #23498f;
+    padding-left: 0;
+    color: #333233;
+    padding-right: 0.5rem;
 }
 
 .links-bar, .skills-bar {
-  text-align: center !important;
-}
-
-@media only screen and (min-width: 765px) {
-  .links-bar {
-    text-align: right !important;
-  }
-
-  .skills-bar {
-    text-align: left !important;
-  }
-
-  .project-process {
-    padding-left: 5rem !important;
-    padding-right: 5rem !important;
-  }
-
-  .project-problem-product {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-}
-
-.has-text-practicum {
-  color: #ed5444;
-}
-
-.project-photo {
-  width: 800px;
-  margin-bottom: 1rem;
+    text-align: center !important;
 }
 
 .is-size-5-5 {
-  font-size: 1.10rem !important;
-}
-
-.project-process, .project-problem-product {
-  padding-right: 1rem;
-  padding-left: 1rem;
+    font-size: 1.10rem !important;
 }
