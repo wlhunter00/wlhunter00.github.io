@@ -5,3 +5,11 @@
 .timeline-headline {
     margin-bottom: 1rem !important;
 }
+
+.timeline.is-centered .timeline-item.is-secondary-blue::before {
+    background-color: #78a3b3;
+}
+
+.timeline-subtitle a {
+    color: #78a3b3;
+}
