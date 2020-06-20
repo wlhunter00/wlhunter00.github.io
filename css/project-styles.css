@@ -23,12 +23,6 @@
     background-color: #002b49;
 }
 
-.hvr-icon-fade:hover .hvr-icon,
-.hvr-icon-fade:focus .hvr-icon,
-.hvr-icon-fade:active .hvr-icon {
-    color: #62aabd;
-}
-
 .hvr-icon-fade:hover .hvr-icon.is-practicum,
 .hvr-icon-fade:focus .hvr-icon.is-practicum,
 .hvr-icon-fade:active .hvr-icon.is-practicum {

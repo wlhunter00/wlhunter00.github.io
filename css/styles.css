@@ -79,7 +79,8 @@ hr {
     padding-right: 0.5rem;
 }
 
-.links-bar, .skills-bar {
+.links-bar,
+.skills-bar {
     text-align: center !important;
 }
 
@@ -89,4 +90,14 @@ hr {
 
 a {
     color: #78a3b3;
+}
+
+a:hover {
+    color: #777f84 !important;
+}
+
+.hvr-icon-fade:hover .hvr-icon,
+.hvr-icon-fade:focus .hvr-icon,
+.hvr-icon-fade:active .hvr-icon {
+    color: #62aabd;
 }
