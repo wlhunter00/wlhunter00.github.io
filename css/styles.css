@@ -86,3 +86,7 @@ hr {
 .is-size-5-5 {
     font-size: 1.10rem !important;
 }
+
+a {
+    color: #78a3b3;
+}
