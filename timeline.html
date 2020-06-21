@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166818139-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-166818139-2");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./mybulma/css/mystyles.css" />
+    <link rel="stylesheet" href="./css/hover.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.10.0/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/animations.js"></script>
+    <title>Will Hunter</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png" />
+    <link rel="manifest" href="/fav/site.webmanifest" />
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/fav/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png" />
+    <meta name="msapplication-config" content="/fav/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <script src="js/timeline.js"></script>
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="/css/timeline.css">
+</head>
+
+<body>
+    <!-- Nav Header -->
+    <nav class="navbar is-spaced" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a target="_blank" rel="noopener noreferrer" class="navbar-item logo" href="index.html">
+                <img src="./logos/no-box.png" />
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbar-main">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbar-main" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">
+                    <span>About</span>
+                </a>
+                <a href="projects.html" class="navbar-item ">
+                    My Work
+                </a>
+                <a href="timeline.html" class="navbar-item has-text-primary is-active">
+                    My Journey
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Body of Timeline -->
+    <section class="section">
+        <!-- <div class="container has-text-centered">
+            <h1 class="title is-size-2">How I Got To Where I Am</h1>
+        </div> -->
+        <div class="container">
+            <div class="timeline is-centered">
+                <header class="timeline-header">
+                    <span class="tag is-large is-primary">Today</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight ">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://www.h1insights.com/">
+                                        <u>H1</u>
+                                    </a>
+                                </p>
+                                <p class="heading">June 2020</p>
+                            </div>
+                            <p>
+                                Started as a Software Engineering Intern. I am working with both the product and data
+                                engineering team on the main Curie product, tasked with improving the data pipeline and
+                                implementing new features to the client facing platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-briefcase has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Founded
+                                    <a href="projects.html#practicum">
+                                        <u>Practicum</u>
+                                    </a>
+                                </p>
+                                <p class="heading">May 2020</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-handshake has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Project Covid Partners
+                                    with
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://lfrinternational.org/">
+                                        <u>LFR International</u>
+                                    </a>
+                                </p>
+                                <p class="heading">April 2020</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-briefcase has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Founded
+                                    <a href="projects.html#project-covid">
+                                        <u>Project Covid</u>
+                                    </a>
+                                </p>
+                                <p class="heading">March 2020</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-pencil-ruler has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Developed
+                                    <a href="projects.html#reddit-sense">
+                                        <u>RedditSense</u>
+                                    </a>
+                                </p>
+                                <p class="heading">February 2020</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-graduation-cap has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started Sophomore Spring
+                                    Semester at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://wustl.edu/">
+                                        <u>WashU</u>
+                                    </a>
+                                </p>
+                                <p class="heading">January 2020</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2020</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle"> Became Risk Manager of
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://docs.google.com/spreadsheets/d/1Vu_uXNKBAe1XGw1P8mZnqRdA3eYWtFDPPheYLIxPZKo/edit?usp=sharing">
+                                        <u>Alpha Delta Phi</u>
+                                    </a>
+                                </p>
+                                <p class="heading">December 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-pencil-ruler has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Developed
+                                    <a href="projects.html#spikefinder">
+                                        <u>Spikefinder</u>
+                                    </a>
+                                </p>
+                                <p class="heading">November 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Reinstated New Chapter
+                                    of
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://upe.acm.org/">
+                                        <u>Upsilon Pi Epsilon</u>
+                                    </a>
+                                </p>
+                                <p class="heading">October 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Became Captain of
+                                    WashU's
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://andbox.com/spring-rally/washington-university-in-st-louis/">
+                                        <u>Overwatch Team</u>
+                                    </a>
+                                </p>
+                                <p class="heading">September 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-graduation-cap has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started Sophomore Fall
+                                    Semester at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://wustl.edu/">
+                                        <u>WashU</u>
+                                    </a>
+                                </p>
+                                <p class="heading">August 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-music has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Learned to
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.mixcloud.com/wlhunter00/set-2/">
+                                        <u>DJ</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight ">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started at
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.alvarezandmarsal.com/">
+                                        <u>Alvarez & Marsal</u>
+                                    </a>
+                                </p>
+                                <p class="heading">June 2019</p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eligendi culpa illum
+                                officia necessitatibus sit magni similique laborum sequi impedit, rem recusandae, magnam
+                                id assumenda rerum eum dolorum molestias facere!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Captained Team in
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://playoverwatch.com/en-us/esports/open-division">
+                                        <u>Overwatch Open Division</u>
+                                    </a>
+                                </p>
+                                <p class="heading">May 2019</p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eligendi culpa illum
+                                officia necessitatibus sit magni similique laborum sequi impedit, rem recusandae, magnam
+                                id assumenda rerum eum dolorum molestias facere!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle"> Became Academic Chair
+                                    for
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://ifc.wustl.edu/fraternity-chapters/alpha-delta-phi/">
+                                        <u>Alpha Delta Phi</u>
+                                    </a>
+                                </p>
+                                <p class="heading">April 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-graduation-cap has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started Freshman Spring
+                                    Semester at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://wustl.edu/">
+                                        <u>WashU</u>
+                                    </a>
+                                </p>
+                                <p class="heading">January 2019</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2018</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle"> Became Webmaster for
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://www.olindsp.org/">
+                                        <u>Delta Sigma Pi</u>
+                                    </a>
+                                </p>
+                                <p class="heading">December 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Joined
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://grouporganizer.wustl.edu/organization/leagueofwashu">
+                                        <u>WashU Esports and Gaming Club</u>
+                                    </a>
+                                </p>
+                                <p class="heading">October 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Joined
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://grouporganizer.wustl.edu/organization/mensvolleyball">
+                                        <u>WashU Club Volleyball</u>
+                                    </a>
+                                </p>
+                                <p class="heading">September 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-graduation-cap has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started Freshman Fall
+                                    Semester at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://wustl.edu/">
+                                        <u>WashU</u>
+                                    </a>
+                                </p>
+                                <p class="heading">August 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">College</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Promoted to Producer at
+                                    <a target=" _blank" rel="noopener noreferrer" href="http://katiebrown.com/">
+                                        <u>Katie Brown Workshop</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Coached Overwatch Teams
+                                    for
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.invenglobal.com/articles/5699/meet-the-nyxl-fan-club-using-overwatch-to-change-the-world">
+                                        <u>Five Deadly Venoms</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-graduation-cap has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Graduated
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://rhs.ridgefield.org/">
+                                        <u>Ridgefield High School</u>
+                                    </a>
+                                </p>
+                                <p class="heading">June 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Hired as Web Consultant
+                                    for
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://dtimanagement.com/">
+                                        <u>DTI Management</u>
+                                    </a>
+                                </p>
+                                <p class="heading">May 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non error adipisci! Cum hic delectus commodi soluta, quod enim
+                                temporibus libero aperiam ex molestias sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-pencil-ruler has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Developed
+                                    <a target=" _blank" rel="noopener noreferrer" href="http://katiebrownfaith.com/">
+                                        <u>Katie Brown Faith</u>
+                                    </a>
+                                </p>
+                                <p class="heading">May 2018</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2017</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">FCIAC Esports League
+                                    Merges with
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.youtube.com/watch?v=ICU4wpjRkcw">
+                                        <u>EGHF</u>
+                                    </a>
+                                </p>
+                                <p class="heading">November 2017</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-handshake has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Hunter's Eye Partners
+                                    with
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://github.com/wlhunter00/football-data">
+                                        <u>RHS Varsity Football</u>
+                                    </a>
+                                </p>
+                                <p class="heading">September 2017</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started at
+                                    <a target=" _blank" rel="noopener noreferrer" href="http://katiebrown.com/">
+                                        <u>Katie Brown Workshop</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2017</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Learned to
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.alltrails.com/trail/us/connecticut/bennetts-pond-loop-trail">
+                                        <u>Mountain Bike</u>
+                                    </a>
+                                </p>
+                                <p class="heading">June 2017</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-briefcase has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Founded
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.twitch.tv/fciacesports/videos">
+                                        <u>FCIAC Esports League</u>
+                                    </a>
+                                </p>
+                                <p class="heading">February 2017</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2016</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-gamepad has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Competed in
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.youtube.com/watch?v=oWjbhEo8Ab0">
+                                        <u>Saturnalia Smite Tournament</u>
+                                    </a>
+                                </p>
+                                <p class="heading">December 2016</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-briefcase has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Founded
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.theridgefieldpress.com/sports/fciac/article/New-game-Hunter-RHS-student-starts-eSports-club-14009764.php">
+                                        <u>RHS Esports Club</u>
+                                    </a>
+                                </p>
+                                <p class="heading">August 2016</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-hiking has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Won CT
+                                    <a target=" _blank" rel="noopener noreferrer"
+                                        href="https://www.gametimect.com/boys-volleyball-surging-ridgefield-set-for-championship-push/#photo-15578615">
+                                        <u>Volleyball State Championship</u>
+                                    </a>
+                                </p>
+                                <p class="heading">June 2016</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2015</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-user-tie has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Started at
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://r4.ai/">
+                                        <u>r4 Technologies</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2015</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-primary is-medium">2011</span>
+                </header>
+                <div class="timeline-item is-info">
+                    <div class="timeline-marker is-primary is-icon">
+                        <i class="fas fa-briefcase has-text-white"></i>
+                    </div>
+                    <div class="timeline-content js--fadeInRight">
+                        <div class="box hvr-shadow">
+                            <div class=" timeline-headline">
+                                <p class="subtitle is-4 has-text-weight-bold timeline-subtitle">Founded
+                                    <a target=" _blank" rel="noopener noreferrer" href="https://youtu.be/48Um9OfhoNI">
+                                        <u>Hunter's Eye Production</u>
+                                    </a>
+                                </p>
+                                <p class="heading">July 2015</p>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet aliquid
+                                voluptate porro non
+                                error adipisci! Cum hic delectus commodi soluta, quod enim temporibus libero aperiam ex
+                                molestias
+                                sapiente nostrum!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-header">
+                    <span class="tag is-large is-primary">End</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section">
+        <div class="container">
+            <hr />
+            <p class="display-inline">
+                © 2020 Designed and Developed by Will. View the code <a target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/wlhunter00/wlhunter00.github.io">here</a>.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
