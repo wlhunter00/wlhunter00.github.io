@@ -2,18 +2,9 @@ $(function () {
   window.sr = ScrollReveal();
 
   if ($(window).width() < 765) {
-    if ($(".timeline-content").hasClass("js--fadeInLeft")) {
-      $(".timeline-content")
-        .removeClass("js--fadeInLeft")
-        .addClass("js--fadeInRight");
-    }
-
-    sr.reveal(".js--fadeInRight", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
+    $(".timeline-content")
+      .removeClass("js--fadeInLeft")
+      .removeClass("js--fadeInRight");
   } else {
     sr.reveal(".js--fadeInLeft", {
       origin: "left",
