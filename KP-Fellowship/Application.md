@@ -1,5 +1,4 @@
 # Kleiner Perkins Engineering Fellow Intern Application
-## [Will Hunter](willhunter.me)
 
 ## Personal Statement 1
 _What impact do you want to have on the world and why?_
